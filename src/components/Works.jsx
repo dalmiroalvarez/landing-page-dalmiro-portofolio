@@ -1,72 +1,108 @@
+import workQubo from '../images/work-1.png'
+import workJuegoTenis from '../images/work-2.png'
+import workCMagico from '../images/work-3.png'
+import workACarnes from '../images/work4-3.png'
+import workCotizadorGastos from '../images/work-gastos-2.png'
+import workCotizadorCriptos from '../images/work-cripto.png'
+import workVeterinario from '../images/work-vet.png'
+import workFincaGonzalez from '../images/work-5-4.png'
+
 const Works = () => {
     return (
-      <div id="aboutUs" className="p-8 xl:p-20">
-        <div className="mb-8">
-          <h1 className="text-[40px] font-black">
-            We create world-class digital products
+      <div id="aboutUs" className="p-8 xl:px-20">
+        <div className="mb-4">
+          <h1 className="text-5xl xl:text-4xl font-bold xl:leading-[7.5rem] sm:mt-8 xl:mt-1">
+            Projects
           </h1>
-          <p className="text-xl text-gray-500">
-            By information about design the world to the best instructors, heatc
-            helping By information
+          <p className="text-xl text-gray-600 my-8 xl:my-1">
+          I would like to share with all of you the most significant projects throughout my career.
+          Many of them are on my GitHub and are {''}
+            <span className="font-bold">open source.</span>
           </p>
         </div>
         {/* Works */}
-        <div className="grid grid-cols-1 xl:grid-cols-2 gap-8">
-          <div className="flex flex-col gap-2">
-            <img
-              src="work1.png"
-              className="w-full h-[600px] object-cover rounded-3xl"
-            />
-            <p className="text-gray-500">App Design - June 20, 2022</p>
-            <h3 className="text-2xl font-bold">App Redesign</h3>
-            <p className="text-gray-500">
-              By information about design the world to the best instructors, heatc
-              helping By information about design the world to the best
-              instructors, heatc helping
-            </p>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="flex flex-col gap-4">
+        <div className="grid sm:grid-rows-1 lg:grid-cols-4 gap-6 my-8">       
+            <div className="grid grid-cols-1 gap-4 border-2 rounded-lg hover:border-gray-900/60 transition-all p-3">
               <img
-                src="work2.png"
-                className="w-full h-56 object-cover rounded-3xl"
+                src={workQubo}
+                className="w-[90%] h-auto object-cover rounded-3xl"
               />
-              <p className="text-gray-500">App Design - June 20, 2022</p>
-              <h3 className="text-2xl font-bold">
-                Redesign channel website landng page
+              <p className="text-gray-500">Institutional project "QUBO Projects"</p>
+              <h3 className="text-xl font-bold">
+                QUBO Proyectos
               </h3>
             </div>
-            <div className="flex flex-col gap-4">
+            <div className="grid grid-cols-1 gap-4 border-2 rounded-lg hover:border-gray-900/60 transition-all p-3">
               <img
-                src="work3.png"
-                className="w-full h-56 object-cover rounded-3xl"
+                src={workJuegoTenis}
+                className="w-[90%] h-auto object-cover rounded-3xl"
               />
-              <p className="text-gray-500">App Design - June 20, 2022</p>
-              <h3 className="text-2xl font-bold">
-                New Locator App For a New Company
+              <p className="text-gray-500">Institutional project "Doblas Tenis"</p>
+              <h3 className="text-xl font-bold">
+                Doblas Tenis
               </h3>
             </div>
-            <div className="flex flex-col gap-4">
+            <div className="grid grid-cols-1 gap-4 border-2 rounded-lg hover:border-gray-900/60 transition-all p-3">
               <img
-                src="work4.png"
-                className="w-full h-56 object-cover rounded-3xl"
+                src={workCMagico}
+                className="w-[90%] h-auto object-cover rounded-3xl"
               />
-              <p className="text-gray-500">App Design - June 20, 2022</p>
-              <h3 className="text-2xl font-bold">
-                Rental Rooms Web App Platform
+              <p className="text-gray-500">Institutional project "Circulo Magico"</p>
+              <h3 className="text-xl font-bold">
+                Circulo Mágico
               </h3>
             </div>
-            <div className="flex flex-col gap-4">
+            <div className="grid grid-cols-1 gap-4 border-2 rounded-lg hover:border-gray-900/60 transition-all p-3">
               <img
-                src="work5.png"
-                className="w-full h-56 object-cover rounded-3xl"
+                src={workACarnes}
+                className="w-[85%] h-auto object-cover rounded-3xl"
               />
-              <p className="text-gray-500">App Design - June 20, 2022</p>
-              <h3 className="text-2xl font-bold">
-                Calendar App for Big SASS Company
+              <p className="text-gray-500">Institutional project "Al Fuego Carnes"</p>
+              <h3 className="text-xl font-bold">
+                Al Fuego Carnes
+              </h3>
+            </div>         
+          
+            <div className="grid grid-cols-1 gap-4 border-2 rounded-lg hover:border-gray-900/60 transition-all p-3">
+              <img
+                src={workCotizadorGastos}
+                className="w-[90%] h-auto object-cover rounded-3xl"
+              />
+              <p className="text-gray-500">Enterprise Software Development</p>
+              <h3 className="text-xl font-bold">
+                Cotizador de Gastos
               </h3>
             </div>
-          </div>
+            <div className="grid grid-cols-1 gap-4 border-2 rounded-lg hover:border-gray-900/60 transition-all p-3">
+              <img
+                src={workVeterinario}
+                className="w-[90%] h-auto object-cover rounded-3xl"
+              />
+              <p className="text-gray-500">Enterprise Software Development</p>
+              <h3 className="text-xl font-bold">
+                Citas Pacientes Veterinaria
+              </h3>
+            </div>
+            <div className="grid grid-cols-1 gap-4 border-2 rounded-lg hover:border-gray-900/60 transition-all p-3">
+              <img
+                src={workCotizadorCriptos}
+                className="w-[90%] h-auto object-cover rounded-3xl"
+              />
+              <p className="text-gray-500">Enterprise Software Development</p>
+              <h3 className="text-xl font-bold">
+                Cotizador de Criptomonedas
+              </h3>
+            </div>
+            <div className="grid grid-cols-1 gap-4 border-2 rounded-lg hover:border-gray-900/60 transition-all p-3">
+              <img
+                src={workFincaGonzalez}
+                className="w-[90%] h-auto object-cover rounded-3xl"
+              />
+              <p className="text-gray-500">Institutional project "Finca Gonzalez"</p>
+              <h3 className="text-xl font-bold">
+                Finca Gonzalez
+              </h3>
+            </div>           
         </div>
       </div>
     );

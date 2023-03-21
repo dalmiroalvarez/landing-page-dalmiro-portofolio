@@ -16,7 +16,7 @@ const Hero = () => {
         <div className="flex flex-col gap-8">
           <h1 className="text-5xl xl:text-5xl font-bold xl:leading-[7.5rem]">
             Frontend Developer{" "}
-            <span className="text-primary py-2 px-6 border-8 border-primary relative inline-block">
+            <span className="text-primary py-2 px-10 border-8 border-primary relative inline-block my-5">
               React
               <RiCheckboxBlankCircleFill className="text-white text-base absolute -left-5 -top-5 p-2 bg-primary rounded-full box-content" />
               <RiCheckboxBlankCircleFill className="text-white text-base absolute -right-5 -top-5 p-2 bg-primary rounded-full box-content" />
@@ -88,7 +88,7 @@ const Hero = () => {
         />
         <img
           src={tailwindImg}
-          className="w-10 h-10 md:w-20 md:h-20 object-cover rounded-full absolute bottom-[5%] left-[15%] xl:left-[3%] -rotate-12"
+          className="w-10 h-10 md:w-20 md:h-20 object-cover rounded-full absolute bottom-[5%] left-[10%] xl:left-[3%] -rotate-12"
         />
       </div>
     </section>
