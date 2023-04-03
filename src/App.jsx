@@ -1,19 +1,17 @@
-// COMPONENTS
-import Technologies from "./components/Technologies";
-import Header from "./components/Header";
-import Hero from "./components/Hero";
-import Works from "./components/Works";
-import Footer from "./components/Footer";
-
+import Header from "./pages/Header";
+import Hero from "./pages/Hero";
+import Technologies from "./pages/Technologies";
+import Works from "./pages/Works";
+import Footer from "./pages/Footer";
 
 function App() {
   return (
-    <div>      
+    <div>
       <Header />
       <Hero />
       <Technologies />
-      <Works />      
-      <Footer />        
+      <Works />
+      <Footer />      
     </div>
   );
 }

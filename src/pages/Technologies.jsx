@@ -8,7 +8,7 @@ import gatsbyImg from '../images/gatsby-logo.png'
 
 const Clients = () => {
     return (
-      <div className="bg-gray-100 mt-20 px-20 py-10" id='technologies'>
+      <div className="bg-gray-100 mt-20 px-20 py-10" id='skills'>
         <h1 className="text-3xl xl:text-4xl font-bold xl:leading-[7.5rem] text-center mb-10 xl:my-2">
         Technologies
         </h1>

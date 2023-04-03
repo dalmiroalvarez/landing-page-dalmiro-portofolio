@@ -1,4 +1,7 @@
+
+// Hooks
 import { useState } from "react";
+
 // Icons
 import {
   RiCheckboxBlankCircleFill,
@@ -30,18 +33,18 @@ const Header = () => {
         items-center justify-center 
         gap-10 transition-all duration-500 z-50`}
       >
-        <a href="home" className="text-lg font-mono hover:text-xl">
+        <a href='#' className="text-lg font-mono hover:text-xl">
           Home
         </a>
-        <a href="technolgies" className="text-lg font-mono hover:text-xl">
+        <a href='#skills' className="text-lg font-mono hover:text-xl">
           Skills
         </a>
-        <a href="projects" className="text-lg font-mono hover:text-xl">
+        <a href='#projects' className="text-lg font-mono hover:text-xl">
           Projects
-        </a>
-        <a href="contact" className="text-lg font-mono hover:text-xl">
+          </a>
+          <a target='_blank' href='https://www.linkedin.com/in/dalmiro-alvarez-b47641174/' className="text-lg font-mono hover:text-xl">
           Contact
-        </a>
+          </a>
       </nav>
       <button
         onClick={() => setShowMenu(!showMenu)}

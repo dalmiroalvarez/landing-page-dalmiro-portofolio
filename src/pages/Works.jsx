@@ -9,7 +9,7 @@ import workFincaGonzalez from '../images/work-5-4.png'
 
 const Works = () => {
     return (
-      <div id="aboutUs" className="p-8 xl:px-20">
+      <div id="projects" className="p-8 xl:px-20">
         <div className="mb-4">
           <h1 className="text-5xl xl:text-4xl font-bold xl:leading-[7.5rem] sm:mt-8 xl:mt-1">
             Projects

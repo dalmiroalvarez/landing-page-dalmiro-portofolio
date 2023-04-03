@@ -29,8 +29,9 @@ const Hero = () => {
           I would like you to get to know me a little more.
           </p>
           <div className="flex flex-col md:flex-row items-center gap-4">
-            <a href='skills'><button 
-              className="w-full xl:w-auto bg-primary text-white py-2 px-8 rounded-xl text-xl"              
+            <a href='#skills'><button 
+              className="w-full xl:w-auto bg-primary text-white py-2 px-8 rounded-xl text-xl"
+                            
             >
             Skills
             </button>
